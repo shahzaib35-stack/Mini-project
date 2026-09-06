@@ -54,6 +54,7 @@ export default function Login() {
               value={formdata.email}
               onChange={handlechange}
               type="email"
+              required
               placeholder="Enter your email"
               className="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
             />
@@ -70,6 +71,7 @@ export default function Login() {
               type="password"
               placeholder="Enter your password"
               className="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+              required
             />
           </div>
 

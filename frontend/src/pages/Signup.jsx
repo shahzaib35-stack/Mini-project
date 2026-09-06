@@ -63,6 +63,7 @@ const handleSubmit = async (e) => {
               type="text"
               placeholder="Enter your name"
               className="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+              required
             />
           </div>
 
@@ -77,6 +78,7 @@ const handleSubmit = async (e) => {
               type="email"
               placeholder="Enter your email"
               className="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+              required
             />
           </div>
 
@@ -91,6 +93,7 @@ const handleSubmit = async (e) => {
               type="password"
               placeholder="Create password"
               className="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+              required
             />
           </div>
           <button type="submit" className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
